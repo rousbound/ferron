@@ -6,7 +6,7 @@ Ferron 2.0.0 and newer can be configured in a [KDL-format](https://kdl.dev/) con
 
 ## Configuration blocks
 
-At the top level of the server configration, the confguration blocks representing specific virtual host are specified. Below are the examples of such configuration blocks:
+At the top level of the server configuration, the confguration blocks representing specific virtual host are specified. Below are the examples of such configuration blocks:
 
 ```kdl
 globals {
