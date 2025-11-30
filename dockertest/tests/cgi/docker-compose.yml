@@ -7,6 +7,7 @@ services:
     volumes:
       - ./ferron.kdl:/etc/ferron.kdl
       - ./cgi-bin:/var/www/ferron/cgi-bin
+      - ./scripts:/var/www/ferron/scripts
 
   # The container copying the CGI binary
   cgi-bin:
